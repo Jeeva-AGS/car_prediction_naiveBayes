@@ -23,6 +23,6 @@ print(testdata1)
 testpred<- predict(naive_model,newdata=testdata1)
 print(testpred)
 
-a<- data.frame(Age=30,Gender="male",Work.Exp=5,Salary=20,Distance=7,license=1)
+a<- data.frame(Age=30,Gender="Male",Work.Exp=5,Salary=20,Distance=7,license=1)
 result<- predict(naive_model , a)
 print(result)
